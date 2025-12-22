@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class PlanKeuangan extends Model
 {
-    //
+    protected $guard = [];
 }
