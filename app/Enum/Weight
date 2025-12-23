@@ -1,0 +1,11 @@
+<?php
+
+enum Weight: string
+{
+    case Thin = 'thin';
+    case Light = 'light';
+    case Fill = 'fill';
+    case Duotone = 'duotone';
+    case Bold = 'bold';
+    case Regular = 'regular';
+}

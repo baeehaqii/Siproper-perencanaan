@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class PlanLegal extends Model
 {
-    protected $guard = [];
+    protected $guarded = [];
 }
